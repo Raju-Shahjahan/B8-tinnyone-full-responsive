@@ -1,0 +1,196 @@
+/*  Download fonts start */
+@font-face {
+    font-family: PTSans-Regular;
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family: PTSans-Bold;
+    src: url(../fonts/PT_Sans/PTSans-Bold.ttf);
+}
+
+/*  Download fonts end */
+
+/* common css start */
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #010101;
+}
+/* common css end */
+
+/* header section start */
+header{
+    background: #fcdb00;
+    padding: 20px 0;
+}
+.logo{}
+.logo img{}
+.menu{}
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101!important;
+    margin: 0 63px;
+    
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+}
+.menu ul li a:hover{
+    color: white!important;
+    transform: scale(1.1);
+}
+/* header section end */
+
+/* slider section start */
+.slider{
+    background: #fcdb00;
+    padding-bottom: 100px;
+}
+.slider-contents{}
+.slider-text{
+    margin-top: 90px;
+}
+.slider-text h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+.slider-text h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    margin-bottom: 21px;
+    padding: 0 115px 0 0;
+}
+.slider-text p{
+    color: #555555;
+}
+.slider-image{}
+.slider-image img{}
+
+.custom-indicators {   
+    top: 515px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+.custom-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #fff;
+
+}
+/* slider section end */
+
+/* feature start */
+.feature{
+    padding: 90px 0;
+}
+.c_title{}
+.c_heading{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.c_para{
+    font-size: 20px;
+    color: #313841;
+    padding: 0 70px;
+    line-height: 1.8rem;
+}
+
+
+.f_single{
+    margin-top: 90px; 
+}
+.f_icon{
+    font-size: 50px;
+    text-align: center;
+    transition: .3s;
+}
+.single_text{}
+.single_text h2{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.single_text p{
+    color: #313841;
+    line-height: 24px;
+}
+.f_single :hover .f_icon{
+    color: #fcdb00;
+    transform: scale(1.2);
+}
+/* feature end */
+
+/* contact start */
+.contact{
+    padding: 100px 0;
+    background: #010101;
+}
+.yellow{
+    color: #fcdb00;
+}
+.gray{
+    color: #898989;
+    margin-bottom: 30px;
+}
+.c_control {
+    height: 50px;
+}
+.c_control:focus {
+    color: #010101;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.c_btn {
+    height: 50px;
+    color: black;
+    background: #fcdb00;
+}
+.c_btn:hover{
+    background: white;
+}
+.c_btn:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.contact_icon{}
+.contact_icon ul li{
+    margin-top: 60px;
+}
+.contact_icon ul li a {
+    color: black;
+    background: #fcdb00;
+    padding: 10px 10px;
+    margin-right: 34px;
+    border-radius: 5px;
+}
+.contact_icon ul li a:hover {
+    background: white;
+}
+/* contact end */
+
+/* footer start */
+footer{
+    padding: 90px 0;
+    background: #010101;
+}
+.f_1{}
+.f_1 p{
+    color: white;
+}
+
+.f_common ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* footer end */
